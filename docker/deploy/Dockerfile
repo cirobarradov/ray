@@ -24,4 +24,4 @@ RUN python setup.py install
 WORKDIR /ray
 #RUN echo "tail -f /dev/null" >> scripts/start_ray.sh 
 #RUN echo "tail -f /dev/null" >> scripts/start_ray.sh --redis-address 192.168.1.54:23390
-CMD ["scripts/start_ray.sh" "redis-address 192.168.1.54:23390"]
+#CMD ["scripts/start_ray.sh" "redis-address 192.168.1.54:23390"]
