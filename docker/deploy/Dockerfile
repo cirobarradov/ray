@@ -25,3 +25,4 @@ WORKDIR /ray
 #RUN echo "tail -f /dev/null" >> scripts/start_ray.sh 
 #RUN echo "tail -f /dev/null" >> scripts/start_ray.sh --redis-address 192.168.1.54:23390
 #CMD ["/ray/scripts/start_ray.sh" "redis-address 192.168.1.54:23390"]
+RUN  /bin/bash /ray/scripts/start_ray.sh --redis-address 192.168.1.54:23390
